@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "botanicalcore",
+  "version": "${version}",
+  "name": "Botanical Core",
+  "description": "A farming API for Fabric Minecraft",
+  "authors": [
+    "BronzeOrbiter"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "BSD-3-Clause",
+  "icon": "assets/botanicalcore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bronzeorbiter.botanicalcore.BotanicalCore"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
